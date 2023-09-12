@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Maryam Imran</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Maryam Imran</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Maryam Imran profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Maryam Imran</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume Maryam.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/maryam-imran-5ab6bbb8'">
+                <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/MaryImr'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience Icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br /> Software Development</p>
+                        <p><br />1+ year <br /> Research</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Computer Engineering <br /> Minor General Management <br /><br /> Middle East Technical University</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/languages.png" alt="Languages Icon" class="icon">
+                        <h3>Languages</h2>
+                        <p><b>Fluent</b></p>
+                        <p>English</p>
+                        <p>Urdu</p>
+                        <p><b>Beginner</b></p>
+                        <p>Turkish</p>
+                        <p>French</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hi, I'm Maryam. Since beginning my journey as a software developer, I have spent most of my time developing
+                        Mobile Apps, Machine Learning projects and Hardware programs. I have also recently dipped my toes in Game Development.
+                        <br />In addition to industry experience, research is of great personal interest to me, and multiple of my research works
+                        are currently under the publication process. If you're up for a collaboration or just a chat, <a href="#contact" class="contact-me-intext">contacting</a> 
+                        me is just a few clicks away!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Python, C,<br />Kotlin,</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>C++, SQL,<br />HTML, CSS,<br />Javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Java, C#, Dart,
+                                    Haskell</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Verilog, System Verilog</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Machine Learning</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>PyTorch</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Supervised Learning</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Unsupervised Learning</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Feature Extraction</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Scikit-learn</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Keras, Tensorflow</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#skills2'">
+    </section>
+    <section id="skills2">
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Software Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Android Studio</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>ATmega128 Programming</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>SRS/SDD</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+        <img src="./assets/exp-section-cartoon.png" alt="cartoon" class="cartoon">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/experience/odtu.png" alt="exp 1" class="exp-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">MIDDLE EAST TECHNICAL UNIVERSITY</h2>
+                    <p>Student Assistant<br />Northern Cyprus<br />Oct 2021 – Jun 2023</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/experience/airelogics.png" alt="exp 2" class="exp-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">AIRELOGICS</h2>
+                    <p>Flutter Intern<br />Ontario, Canada (Remote)<br />Jul 2022 – Sep 2022</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/experience/silentsol.jpeg" alt="exp 3" class="exp-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">SILENTSOL</h2>
+                    <p>Android Intern<br />Islamabad, Pakistan<br />Jul 2021 – Oct 2021</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects/project-1.jpg" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title mlc-title">MACHINE LEARNING-BASED PRECANCEROUS CELL DETECTION ALGORITHM</h2>
+                    <div class="btn-container">
+                        <button data-modal-target="#modal1" class="btn btn-color-2 project-btn">Details</button>
+                        <div class="modal" id="modal1">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Details</h2>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                This started out as my undergraduate graduation project, in collaboration with a couple of other students and 
+                                professors. We used a dataset containing optical imaging of human cells. It had previously been used as part of research
+                                to find light scattering patterns in precancerous cells. We implemented the same idea but with the help of machine learning concepts.
+                                My part involved working on supervised learning algorithms. The algorithms I custom developed for this cause included KNN, SVM and
+                                Decision Tree. I also used multiple versions of the dataset to create multiple models for testing. These versions were basically
+                                features extracted from the dataset itself. They included HOG, fourier descriptors, 1d fourior transforms and 2d fourier transforms.
+                                I was able to achieve test accuracies of up to 94.13%. 10-fold cross validation was implemented for improved reliability of results.
+                                I used Python as the programming language of choice and mostly the Scikit-learn library for pre-build ml functions. 
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects/project-2.jpg" alt="project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">SENSOR MANAGEMENT PROGRAM - HARDWARE PROGRAMMING</h2>
+                    <div class="btn-container">
+                        <button data-modal-target="#modal2" class="btn btn-color-2 project-btn">Details</button>
+                        <div class="modal" id="modal2">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Details</h2>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Developed a sensor management system that dapended on an ATmega128 microcontroller as its brains. It collected data off of multiple 
+                                sensors connected to a gardening setup. It stored the data locally and performed functions such as switching LEDs and water motors on/off
+                                based on light level, temperature and moisture level readings. It was also connected to a keypad and display to make it easier for human
+                                users to interact with it. I used C as the programming language of choice and Atmel Studio + Proteus for code and design testing.
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects/project-3.jpg" alt="project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title android-title">VARIOUS<br />ANDROID APPS</h2>
+                    <div class="btn-container">
+                        <button data-modal-target="#modal3" class="btn btn-color-2 project-btn">Details</button>
+                        <div class="modal" id="modal3">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Details</h2>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Developed various android mobile applications ranging from simple calculator and dice apps to sophisticated
+                                gallery and telehealth apps. Used private as well as public APIs such as company's server connection API, 
+                                Google Maps API, etc. There was heavy focus on SDKs, UI/UX Design as well as frontend and backend integration.
+                                Choice of programming language was Kotlin with many android specific libraries. Android Studio was the main IDE with
+                                testing on both actual devicing and emulators.
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects2'">
+    </section>
+    <section id="projects2">
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects/project-4.png" alt="project 4" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title c-title">VARIOUS<br />C/C++ PROJECTS</h2>
+                    <div class="btn-container">
+                        <button data-modal-target="#modal4" class="btn btn-color-2 project-btn">Details</button>
+                        <div class="modal" id="modal4">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Details</h2>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Developed various C/C++ projects ranging from beginner algorithms to more advanced queuing systems and basic
+                                games geared towards object oriented programming principles. Used IDEs such as CodeBlocks and CLion and many built-in
+                                and external libraries. 
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects/project-5.png" alt="project 5" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title ml-title">VARIOUS<br />MACHINE LEARNING PROJECTS</h2>
+                    <div class="btn-container">
+                        <button data-modal-target="#modal5" class="btn btn-color-2 project-btn">Details</button>
+                        <div class="modal" id="modal5">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Details</h2>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Implemented various machine learning algorithms from scratch to gain better insight into their inner workings
+                                as well as build a strong foundation. Worked on neural networks and numerous supervised and unsupervised
+                                classification algorithms. Worked with PyTorch, Keras, Scikit-learn and Tensorflow. Experienced image and object
+                                recognition algorithms as well. Some experience with Natural Language Processing. 
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects/project-6.png" alt="project 6" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title python-title">VARIOUS<br />PYTHON PROJECTS</h2>
+                    <div class="btn-container">
+                        <button data-modal-target="#modal6" class="btn btn-color-2 project-btn">Details</button>
+                        <div class="modal" id="modal6">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Details</h2>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Developed a multitude of python projects ranging from regular expressions to beautiful and functional GUI
+                                elements using libraries such as tkinter. Also used python for machine learning projects as mentioned elsewhere.
+                                Used PyCharm as IDE of choice. 
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'">
+        <p class="github-call">Check out <a href="https://github.com/MaryImr" class="contact-me-intext">GitHub</a> for more details!</p>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:maryamimran2000@outlook.com">maryamimran2000@outlook.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/maryam-imran-5ab6bbb8/">LinkedIn</a></p>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow last-arrow" onclick="location.href='./#top'">
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Maryam Imran. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
