@@ -55,8 +55,14 @@
         display: none;
     }
     .github-call {
-        margin-top: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
         font-size: 1rem;
+    }
+    .fiverr-call {
+        font-size: 0.75rem;
+        margin-bottom: 5rem;
+        margin-top: 0.75rem;
     }
 }
 
@@ -115,4 +121,5 @@
     .cartoon {
         display: none;
     }
+    
 }
