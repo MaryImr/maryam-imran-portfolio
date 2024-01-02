@@ -440,6 +440,11 @@ article .icon {
     font-size: 1.5rem;
 }
 
+.fiverr-call {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
 .color-container {
     border-color: var(--maroon-main);
     background: rgb(255, 255, 255);
@@ -494,6 +499,10 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+}
+
+#contact p {
+    text-align: center;
 }
 
 .contact-info-upper-container {
