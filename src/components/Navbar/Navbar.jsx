@@ -26,7 +26,7 @@ const Navbar = () => {
           ))}
           <li className='app__flex p-text' key='link-CV'>
             <div />
-            <a href="../../assets/Resume Maryam - ML.pdf" target="_blank" rel="noreferrer">CV</a>
+            <a href={images.resume} target="_blank" rel="noreferrer">CV</a>
           </li>
       </ul>
       <div className='app__navbar-menu'>
@@ -50,7 +50,7 @@ const Navbar = () => {
                       ))
                     }
                     <li key='CV'>
-                      <a href="../../assets/Resume Maryam - ML.pdf" target="_blank" rel="noreferrer">CV</a>
+                      <a href={images.resume} target="_blank" rel="noreferrer">CV</a>
                     </li>
                     
                   </ul>
