@@ -18,12 +18,16 @@ const Navbar = () => {
           'about',
           'work',
           'skills',
-          'contact' ].map((item) => (
+          'contact'].map((item) => (
              <li className='app__flex p-text' key={`link-${item}`}>
               <div />
               <a href={`#${item}`}>{item}</a>
              </li>
           ))}
+          <li className='app__flex p-text' key='link-CV'>
+            <div />
+            <a href="../../assets/Resume Maryam - ML.pdf" target="_blank" rel="noreferrer">CV</a>
+          </li>
       </ul>
       <div className='app__navbar-menu'>
             <HiMenuAlt4 onClick={() => setToggle(true)}/>
@@ -39,11 +43,16 @@ const Navbar = () => {
                       'about',
                       'work',
                       'skills',
-                      'contact' ].map((item) => (
+                      'contact'].map((item) => (
                         <li key={item}>
                           <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                         </li>
-                      ))}
+                      ))
+                    }
+                    <li key='CV'>
+                      <a href="../../assets/Resume Maryam - ML.pdf" target="_blank" rel="noreferrer">CV</a>
+                    </li>
+                    
                   </ul>
                 </motion.div>
               )
