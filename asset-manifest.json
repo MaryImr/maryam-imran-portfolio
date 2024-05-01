@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maryam-imran-portfolio/static/css/main.2614f4f9.css",
-    "main.js": "/maryam-imran-portfolio/static/js/main.92b54067.js",
+    "main.js": "/maryam-imran-portfolio/static/js/main.fa1588c1.js",
     "static/js/726.64e9befd.chunk.js": "/maryam-imran-portfolio/static/js/726.64e9befd.chunk.js",
     "static/media/about04.png": "/maryam-imran-portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/maryam-imran-portfolio/static/media/about02.7a3df03410ee756268ec.png",
@@ -31,11 +31,11 @@
     "index.html": "/maryam-imran-portfolio/index.html",
     "static/media/circle.svg": "/maryam-imran-portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.2614f4f9.css.map": "/maryam-imran-portfolio/static/css/main.2614f4f9.css.map",
-    "main.92b54067.js.map": "/maryam-imran-portfolio/static/js/main.92b54067.js.map",
+    "main.fa1588c1.js.map": "/maryam-imran-portfolio/static/js/main.fa1588c1.js.map",
     "726.64e9befd.chunk.js.map": "/maryam-imran-portfolio/static/js/726.64e9befd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2614f4f9.css",
-    "static/js/main.92b54067.js"
+    "static/js/main.fa1588c1.js"
   ]
 }
